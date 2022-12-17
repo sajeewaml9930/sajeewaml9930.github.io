@@ -493,9 +493,9 @@ margin: 0 8px;
   padding-bottom: 10px; 
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  background: rgb(195, 54, 11);
+  background: rgb(11, 17, 195);
   color: #FFFFFF;
-  border: 1px solid #C3360B;
+  border: 1px solid #2d0bc3;
 }
  
 #our-team .social-icons {
@@ -514,10 +514,10 @@ margin: 0 8px;
   height: 32px;
   line-height: 32px;
   text-align: center;
-  color: #C3360B;
+  color: #0b30c3;
   background: transparent;
   border-radius: 3px;
-  border: 1px solid #C3360B;
+  border: 1px solid #330bc3;
 }
 /*Testimonial Area*/
 
@@ -691,7 +691,7 @@ margin: 0 8px;
   border: 0;
 }
 #pricing ul.pricing.featured li.plan-header {
-  background: #C3360B;
+  background: #0b39c3;
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #fff;
@@ -739,7 +739,7 @@ width: 100px;
   color: #fff;
 }
 #footer a:hover {
-  color: #FFA98E;
+  color: #8eaaff;
 }
 #footer ul {
   list-style: none;
