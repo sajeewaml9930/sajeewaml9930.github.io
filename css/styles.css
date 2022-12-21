@@ -141,6 +141,7 @@ text-transform: uppercase;
 **************************/
 #main-nav.navbar-default {
 background: #FFFFFF;
+
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
 background: rgb(32, 11, 195);
@@ -167,6 +168,7 @@ color: #FFFFFF;
   #main-nav.navbar-default .navbar-nav > li > a {
     padding-top: 40px;
     padding-bottom: 40px;
+    asdfg
   }
   .navbar-default .navbar-nav>li>a {
 	color: #200bc3;
@@ -175,7 +177,7 @@ color: #FFFFFF;
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
     background: rgb(45, 11, 195); 
-	
+	float: right;
     color: #FFF;
   }
   #main-nav.navbar-default .dropdown-menu {
@@ -215,11 +217,9 @@ color: #FFFFFF;
   }
 }
 #hero-banner{
-  overflow: hidden;
-  height:650px;
-  background: url('../images/banner/bg1.jpg');
-  background-size:cover;
-  color:#fff;
+  padding: 100px 0;
+  background: #2c2f45;
+  color: #fff;
 }
 #hero-banner.item {
   height: 558px;
@@ -236,7 +236,7 @@ color: #FFFFFF;
   color: #000;
 }
 #hero-banner h2 {
-  margin-top: 180px;
+  margin-top: 10px;
   font-size: 30px;
   line-height: 49px;  
 }
@@ -701,6 +701,9 @@ margin: 0 8px;
 }
 #contact-us h1,
 #contact-us h2 {
+}
+#contact-us h4{
+  text-align: center;
 }
 /*Contact*/
  .contact-info{
