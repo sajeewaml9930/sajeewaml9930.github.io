@@ -478,6 +478,12 @@ margin: 0 8px;
 #about {
   padding: 100px 0;
 }
+#about h3{
+  text-align: center;
+}
+#about p{
+  text-align: center;
+}
 /*Team*/ 
 #our-team {
   padding: 100px 0;
@@ -797,7 +803,7 @@ div.Technology {
   border: 1px solid rgb(255, 255, 255);
   float: left;
   width: 100px;
-  height: 200px;
+  height: 150px;
 }
 
 div.Technology:hover {
