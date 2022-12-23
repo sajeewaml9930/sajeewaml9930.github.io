@@ -791,8 +791,9 @@ margin: 9px auto;
 padding: 7px 0 0;
 }
 }
+/*Technology*/
 div.Technology {
-  margin: 25px;
+  margin: 60px;
   border: 1px solid rgb(255, 255, 255);
   float: left;
   width: 100px;
@@ -805,9 +806,4 @@ div.Technology:hover {
 div.Technology img {
   width: 100%;
   height: 100px;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
