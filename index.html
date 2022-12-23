@@ -416,7 +416,6 @@
                 <li class="plan-header">
                   <div class="price-duration">
                     <span class="price"> Web App </span>
-                    <span class="duration"> per month </span>
                   </div>
 
                   <div class="plan-name">Basic</div>
@@ -443,7 +442,6 @@
                 <li class="plan-header">
                   <div class="price-duration">
                     <span class="price"> Mobile App </span>
-                    <span class="duration"> per month </span>
                   </div>
 
                   <div class="plan-name">Business</div>
@@ -470,7 +468,6 @@
                 <li class="plan-header">
                   <div class="price-duration">
                     <span class="price"> Desktop App </span>
-                    <span class="duration"> per month </span>
                   </div>
 
                   <div class="plan-name">Professional</div>
@@ -497,7 +494,6 @@
                 <li class="plan-header">
                   <div class="price-duration">
                     <span class="price"> ChatBots </span>
-                    <span class="duration"> per month </span>
                   </div>
 
                   <div class="plan-name">Extended</div>
@@ -539,9 +535,9 @@
                 <h3>Contact Info</h3>
 
                 <address>
-                  <strong>Amazing Company, Inc.</strong><br />
-                  12345 NewYork, Street 125<br />
-                  United States 94107<br />
+                  <strong>AleneSoft,</strong><br />
+                  Colombo,<br />
+                  Sri Lanka<br />
                   <abbr title="Phone">P:</abbr> (123) 456-7890
                 </address>
               </div>
@@ -610,10 +606,11 @@
           <div class="col-sm-6">
             <ul class="social-icons">
               <li>
-                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a onclick="myFunction()"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a onclick="myFunction()"><i class="fa fa-linkedin"></i></a>
+                <!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
               </li>
               <li>
               </li>
@@ -635,6 +632,9 @@
     <script src="js/custom-scripts.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
+      function myFunction() {
+        alert("Comming Soon..............");
+      }
       function sendEmail() {
         Email.send({
           Host: "smtp.gmail.com",
