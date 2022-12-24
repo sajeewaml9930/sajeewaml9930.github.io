@@ -702,6 +702,9 @@ margin: 0 8px;
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #fff;
 }
+#pricing h4{
+  text-align: center;
+}
 #contact-us {
   padding: 100px 0 10px;
 }
@@ -805,7 +808,6 @@ div.Technology {
   width: 100px;
   height: 150px;
 }
-
 div.Technology:hover {
   border: 1px solid rgb(255, 253, 253);
 }
