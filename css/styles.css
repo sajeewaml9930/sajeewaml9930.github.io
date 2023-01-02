@@ -255,11 +255,8 @@ color: #FFFFFF;
 #hero-banner-1.banner-inner h2 > span {
   color: #45aed6;
 }
-#our-services h4 {
-  margin-top: 1%;  
-  font-size: 20px;
-}
-#our-services p >  {
+
+#our-services  {
   text-align: center;
 }
 #hero-text {
