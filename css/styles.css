@@ -70,6 +70,17 @@ hr {
 .btn.btn-primary {
   background: #2d0bc3;
 }
+.btn-home{
+    margin-top: 5%;
+    font-size: larger;
+    color: #36312d;
+    font-weight: 600;
+    background-color: #00feff;
+    padding: 0.75rem 2.1875rem;
+    border: 1px solid #00feff;
+    cursor: pointer;
+    border-radius: 50px !important;
+  }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
   background: #322ff4;
@@ -216,18 +227,19 @@ color: #FFFFFF;
     background-color: transparent;
   }
 }
-#hero-banner{
+#hero-banner-1{
+  height: 500px;
   padding: 100px 0;
-  background: #2c2f45;
-  color: #fff;
+  background: #03465f;
+  color: rgb(231, 235, 237);
 }
-#hero-banner.item {
+#hero-banner-1.item {
   height: 558px;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
 }
-#hero-banner.banner-inner {
+#hero-banner-1.banner-inner {
   position: absolute;
   top: 0;
   left: 0;
@@ -235,18 +247,21 @@ color: #FFFFFF;
   height: 100%;
   color: #000;
 }
-#hero-banner h2 {
-  margin-top: 10px;
-  font-size: 30px;
+#hero-banner-1 h2 {
+  margin-top: 50px;
+  font-size: 40px;
   line-height: 49px;  
 }
-#hero-banner.banner-inner h2 > span {
+#hero-banner-1.banner-inner h2 > span {
   color: #45aed6;
 }
-#hero-banner.banner-inner .btn {
-  margin-top: 10px;
-} 
- 
+#our-services h4 {
+  margin-top: 1%;  
+  font-size: 20px;
+}
+#our-services p >  {
+  text-align: center;
+}
 #hero-text {
   padding: 50px 0;
   border-top: 1px solid #FFFFFF;
@@ -641,10 +656,10 @@ margin: 0 8px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
-#pricing {
+#our-package {
   padding: 100px 0 70px;
 }
-#pricing ul.pricing {
+#our-package ul.our-package {
   list-style: none;
   padding: 0;
   margin: 70px 0 30px;
@@ -652,17 +667,17 @@ margin: 0 8px;
   padding: 15px;
   text-align: center;
 }
-#pricing ul.pricing li {
+#our-package ul.our-package li {
   display: block;
   padding: 10px;
 }
-#pricing ul.pricing li.plan-header {
+#our-package ul.our-package li.plan-header {
   /* background: #D0D0D0; */ 
   margin: -15px -15px 10px;
   padding: 15px 15px 30px;
   border: 0;
 }
-#pricing ul.pricing li.plan-header .price-duration {
+#our-package ul.our-package li.plan-header .price-duration {
   position: relative;
   margin-top: 15px;
   top: -10px;
@@ -672,19 +687,19 @@ margin: 0 8px;
   color: #000;  
   background: #E4E4E4;
 }
-#pricing ul.pricing li.plan-header .price-duration > span {
+#our-package ul.our-package li.plan-header .price-duration > span {
   display: block;
   line-height: 1;
 }
-#pricing ul.pricing li.plan-header .price-duration > span.price {
+#our-package ul.our-package li.plan-header .price-duration > span.price {
   font-size: 24px;
   font-weight: 700;
   margin-top: 35px;
 }
-#pricing ul.pricing li.plan-header .price-duration > span.duration {
+#our-package ul.our-package li.plan-header .price-duration > span.duration {
   margin-top: 5px;
 }
-#pricing ul.pricing li.plan-header .plan-name {
+#our-package ul.our-package li.plan-header .plan-name {
   margin-top: 10px;
   font-size: 24px;
   color: #272727;
@@ -692,18 +707,18 @@ margin: 0 8px;
   line-height: 1;
   text-transform: uppercase;
 }
-#pricing ul.pricing.featured {
+#our-package ul.our-package.featured {
   background: #ECECEC; 
   border: 0;
 }
-#pricing ul.pricing.featured li.plan-header {
+#our-package ul.our-package.featured li.plan-header {
   background: #0b39c3;
 }
-#pricing ul.pricing.featured li.plan-header .plan-name {
+#our-package ul.our-package.featured li.plan-header .plan-name {
   color: #fff;
 }
-#pricing h4{
-  text-align: center;
+#our-package h4{
+  text-align: centerb;
 }
 #contact-us {
   padding: 100px 0 10px;
@@ -801,6 +816,9 @@ padding: 7px 0 0;
 }
 }
 /*Technology*/
+#Technologies {
+  padding: 100px 0 1px;
+}
 div.Technology {
   margin: 20px;
   border: 1px solid rgb(255, 255, 255);
@@ -818,4 +836,7 @@ div.Technology img {
 }
 #Technologies h4{
   text-align: center;
+}
+#our-services {
+  padding: 100px 0 70px;
 }
