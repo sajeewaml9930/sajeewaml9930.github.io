@@ -186,7 +186,7 @@ form.contact-form, .contact-txt {
 
 .inputline {
     display: none;
-    background-color: red;
+    background-color: rgb(0, 11, 98);
     width: 5%;
     transition: width 5s;
     height: 2px;
