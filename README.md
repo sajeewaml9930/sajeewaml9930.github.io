@@ -1,2 +1,1 @@
-# This is read me file 
-
+# Sample-furniture-sales-site1
