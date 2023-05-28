@@ -32,6 +32,7 @@
    }
    
    .form-block {
+    /* margin-top: 5%; */
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -685,6 +686,7 @@
    
    @media screen and (max-width: 991px) {
      .form-block {
+      margin-top: 10%;
        padding: 28px;
      }
    
@@ -835,6 +837,7 @@
    
    @media screen and (max-width: 479px) {
      .form-block {
+      margin-top: 30%;
        padding: 40px 10px 10px;
      }
    
