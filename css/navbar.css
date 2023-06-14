@@ -78,7 +78,7 @@ a.nav-link.active::before {
 /*scrollabale navigation*/
 .scrollableNav {
     background-color: #ffffff;
-    transition: background-color 0.9s linear;
+    transition: background-color 0s linear;
     z-index: 1000 !important;
 }
 
@@ -107,7 +107,7 @@ li.nav-item {
     position: fixed;
     z-index: 100;
     width: 100%;
-
+    transition: background-color 0.9s linear;
 }
 .navbar-scrolled{
     background-color: rgb(155, 136, 136);

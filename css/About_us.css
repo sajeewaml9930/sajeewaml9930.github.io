@@ -139,10 +139,72 @@ img#contact-banner {
     .about-half-box {
         height: 300px !important;
     }
+    
+    img#contact-banner, .contact-main-banner-wrapper {
+        height: 200px;
+    }
+
+    .about-full-height-area {
+        padding: 0;
+        padding-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #vision-card {
+        height: 200px;
+    }
+
+    .about-half-box {
+        height: 250px;
+    }
+
+    .excellence {
+        padding: 0px;
+    }
+
+    .full-height-section1 {
+        height: 100%;
+    }
+
+    .about-half-box {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+
+    .about-left-half-box, .about-right-half-box {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    img.half-img.about-main-img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.main-title {
+        margin-bottom: 10px;
+        font-size: 120%;
+    }
+
+    .excellence-right {
+        margin: 30px 15px;
+    }
+    .main-text-box {
+        margin-top: 70%;
+        width: 1000%;
+    }
+    p.main-p{
+        font-size: 75%;
+    }
+    svg#Vission {
+        left: 30px;
+    }
 }
 
 /*mobile-view*/
-@media screen and (max-width: 767px) {
+@media (min-width: 376px) and (max-width: 767px) {
     img#contact-banner, .contact-main-banner-wrapper {
         height: 200px;
     }
@@ -193,6 +255,11 @@ img#contact-banner {
     .excellence-right {
         margin: 30px 15px;
     }
+    .main-text-box {
+        margin-top: 35%;
+        width: 1000%;
+    }
+
 }
 
 /*tab-portrait*/
