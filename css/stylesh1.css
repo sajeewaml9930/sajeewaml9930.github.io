@@ -1,0 +1,220 @@
+
+a:hover {
+	text-decoration: none;
+	color: #1f2222;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+}
+.btn-primary {
+	font-size: 17px;
+	margin: 30px 0 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding: 15px 35px;
+	height: 50px;
+	background: linear-gradient(
+		to bottom,
+		rgba(76, 153, 235, 1),
+		rgba(15, 82, 153, 1)
+	  );
+	transition: all 0.4s;
+	color: rgb(18, 18, 22);
+	border-radius: 10px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	border: 2px solid rgb(0, 40, 83);
+	background: linear-gradient(
+		to bottom,
+		rgba(76, 153, 235, 1),
+		rgb(8, 45, 84)
+	  );
+
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+	background: #1f96e0;
+	color: white
+}
+
+.landing h1{
+	font-family: 'Bebas Neue';
+	font-size: 56px;
+	font-weight: 300;
+	color: rgba(15, 82, 153, 1);
+	margin: 130px 0 20px 0;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.landing p {
+	color: rgba(0, 24, 29, 1);
+	font-family: 'Roboto';
+}
+.landing-text {
+	margin-bottom: 20px;
+}
+.landing-text p { 
+	padding-bottom: 20px;
+}
+
+.head-btn {
+	margin-bottom: 40px;
+}
+.option .fa {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.header-phone {
+	margin: 50px 0 100px;
+}
+.img-responsive{
+	margin: 130px 0 20px 0;
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+	.more {
+		margin-bottom: 50px;
+	}
+	#intro {
+		padding: 30px 0 50px;
+	}
+	#intro h2, #feature-2 h2 {
+		font-weight: 150;
+		text-align: center;
+	}
+	#intro p, #feature-2 p {
+		text-align: center;
+	}
+	.btn-section {
+		text-align: center;
+	}
+	
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+
+	.landing h1{
+		margin: 100px 0 60px 0;
+	}	
+	.landing-text {
+		margin: 60px 0 40px 0;
+	}
+	.header-phone {
+	margin-top: 125px;
+	}
+
+
+}
+
+/* smart-phone ----------- */
+@media (max-width: 767px) {
+
+}	
+/* iPhone 6Plus (landscape) ----------- */
+@media (max-width: 736px) {
+
+}
+
+/* iPhone 6 (landscape) ----------- */
+@media (max-width: 667px) {
+.landing h1{
+	font-size: 48px;
+}
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media (max-width: 568px){
+	.landing h1{
+		font-size: 40px;
+		margin: 100px 0 10px 0;
+	}
+	.landing-text p {
+		font-size: 16px !important; 
+	}
+}
+
+/* iPhone 4 (landscape) ----------- */
+@media (max-width: 480px) {
+	.feat-list i {
+		padding-left: 5px;
+	}
+	.action h2 {
+		font-size: 30px;
+	}
+}
+
+/* smart phone width: 360px ----------- */
+@media (max-width: 360px) {
+	#intro h2, #feature h2, #feature-2 h2 {
+		font-size: 30px;
+	}
+	.feat-list i {
+		padding-left: 0;
+	}
+	#feature .inner {
+		padding-left: 15px;
+	}
+	.appstorebutton {
+		margin-bottom: 15px;
+	} 
+	.download-store li {
+		margin-left: 0;
+	}
+}
+
+/* iPhone 4/5 (portrait) ----------- */
+@media (max-width: 320px) {
+	.logo {
+		margin: 30px 0 20px 0;
+	}
+	.landing h1{
+		margin: 150px 0 35px 0;
+	}
+	.more {
+		text-align: center;
+	}
+	.more p {
+		font-size: 14px;
+	}
+	.option {
+		padding: 3px;
+		min-width: 75px;
+		margin-right: 2px;
+	}
+	.btn-default {
+		font-size: 16px;
+		margin: 30px 0 10px;
+		padding: 15px 30px;
+		height: 35px;
+		border-radius: 80px;
+	}
+	.btn-primary {
+		font-size: 16px;
+		margin: 30px 0 10px;
+		margin-right: 15px;
+		padding: 15px 30px;
+		height: 35px;
+		border-radius: 80px;
+	}
+	.subscribe-form {
+		margin: 50px auto 110px;
+	}
+	.subscribe-form input {
+		padding: 5px 15px;
+	}
+	.subscribe-form button {
+		padding: 0 15px;
+	}
+	.action h2 {
+		margin: 70px 0 20px;
+	}
+
+}
