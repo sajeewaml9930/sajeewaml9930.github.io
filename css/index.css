@@ -56,3 +56,16 @@
   transform: skewY(3deg);
   z-index: -1;} */
   
+/* Our Partners */
+      
+      /* Slider */ 
+      .slick-slide {
+        margin: 0px 10px 50px;
+      }
+
+      .slick-slide img {
+        width: 100%;
+      }
+
+     
+        

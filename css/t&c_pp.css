@@ -1,6 +1,10 @@
 .main {
     /* Background */
-    background-color: #f2f2f2;
+    background: linear-gradient(
+    to bottom,
+    rgb(219, 242, 253),
+    rgba(210, 240, 255, 1)
+  );
     padding: 20px;
     border-radius: 5px;
     
