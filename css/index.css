@@ -42,6 +42,13 @@
       background-color: transparent;
       color: rgb(76, 76, 76);
   }
+  /* asset/img/landing_page/Connect With Quantum Tech.png */
+  .contact{
+    background-image: url('/asset/img/landing_page/Connect\ With\ Quantum\ Tech.png');
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+    }
   /* .box-services{
   position:relative;
   }
@@ -68,4 +75,54 @@
       }
 
      
+      @media (max-width: 767px) {
+        .contact{
+          border-radius: 25px 25px 25px 25px
+        }
+      }
+      @media (min-width: 768px) {
+        .contact{
+          border-radius: 50px 0 0 50px
+        }
+      }
+      .polaroid {
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
         
+      }
+      
+      .container1 {
+        text-align: center;
+        padding: 10px 20px;
+        
+      }
+      .new{
+        background: linear-gradient(
+		to bottom,
+		rgba(76, 153, 235, 1),
+		rgba(15, 82, 153, 1)
+	  );
+    border-radius: 0px 0px 25px 25px;
+      }
+
+      .box-products {
+        padding: 10px 0px 0px;
+        
+        border-radius: 25px 25px 25px 25px;
+        border-bottom: 1px solid #d4d4d4;
+        background:white ;
+        margin-bottom: 30px;
+        font-size: 16px;
+        box-shadow: 0px 12px 56px 0px #0F52991F;
+            
+        /* z-index: 1; */
+      }
+      .imgproduct{
+        margin: 10px;
+        display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 90%;
+      }

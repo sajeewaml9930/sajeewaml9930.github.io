@@ -58,13 +58,13 @@ $(document).ready(function() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 4
+          slidesToShow: 2
         }
       },
       {
         breakpoint: 520,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 1
         }
       }
     ]
