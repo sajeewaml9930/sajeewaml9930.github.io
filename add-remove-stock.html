@@ -570,20 +570,72 @@
           <!-- End Navbar -->
         </div>
 
-        <div class="container">
-          <div class="page-inner">
-            <!-- -->
-            <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
-          >
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
-              <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+<div class="container">
+  <div class="page-inner">
+    <!-- Header Section -->
+    <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+      <div>
+        <h3 class="fw-bold mb-3">Add Remove Stock</h3>
+        <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+      </div>
+    </div>
+
+    <!-- Add/Remove Stock Section -->
+    <div class="add-remove-stock">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Add Stock</h4>
             </div>
-          </div>            
-          <!--  -->
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="addStockProduct">Product</label>
+                  <input type="text" class="form-control" id="addStockProduct" placeholder="Enter product name">
+                </div>
+                <div class="form-group">
+                  <label for="addStockQuantity">Quantity</label>
+                  <input type="number" class="form-control" id="addStockQuantity" placeholder="Enter quantity">
+                </div>
+                <div class="form-group">
+                  <label for="addStockLocation">Location</label>
+                  <input type="text" class="form-control" id="addStockLocation" placeholder="Enter location">
+                </div>
+                <button type="submit" class="btn btn-primary">Add Stock</button>
+              </form>
+            </div>
           </div>
         </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Remove Stock</h4>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="removeStockProduct">Product</label>
+                  <input type="text" class="form-control" id="removeStockProduct" placeholder="Enter product name">
+                </div>
+                <div class="form-group">
+                  <label for="removeStockQuantity">Quantity</label>
+                  <input type="number" class="form-control" id="removeStockQuantity" placeholder="Enter quantity">
+                </div>
+                <div class="form-group">
+                  <label for="removeStockLocation">Location</label>
+                  <input type="text" class="form-control" id="removeStockLocation" placeholder="Enter location">
+                </div>
+                <button type="submit" class="btn btn-danger">Remove Stock</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">

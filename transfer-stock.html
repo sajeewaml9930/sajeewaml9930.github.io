@@ -572,18 +572,52 @@
 
         <div class="container">
           <div class="page-inner">
-            <!-- -->
-            <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
-          >
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
-              <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+            <!-- Demo Transfer Stock Section -->
+            <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+              <div>
+                <h3 class="fw-bold mb-3">Transfer Stock</h3>
+                <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+              </div>
             </div>
-          </div>            
-          <!--  -->
+        
+            <!-- Transfer Stock Form -->
+            <div class="transfer-stock-form">
+              <h4>Transfer Stock Between Outlets</h4>
+              <form>
+                <div class="mb-3">
+                  <label for="fromOutlet" class="form-label">From Outlet</label>
+                  <select class="form-control" id="fromOutlet">
+                    <option value="outlet1">Outlet 1</option>
+                    <option value="outlet2">Outlet 2</option>
+                    <!-- Add more outlets as needed -->
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="toOutlet" class="form-label">To Outlet</label>
+                  <select class="form-control" id="toOutlet">
+                    <option value="outlet3">Outlet 3</option>
+                    <option value="outlet4">Outlet 4</option>
+                    <!-- Add more outlets as needed -->
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="timberType" class="form-label">Timber Type</label>
+                  <select class="form-control" id="timberType">
+                    <option value="teak">Teak</option>
+                    <option value="mahogany">Mahogany</option>
+                    <!-- Add more timber types as needed -->
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="quantity" class="form-label">Quantity</label>
+                  <input type="number" class="form-control" id="quantity" placeholder="Enter quantity">
+                </div>
+                <button type="submit" class="btn btn-primary">Transfer Stock</button>
+              </form>
+            </div>
           </div>
         </div>
+        
 
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
