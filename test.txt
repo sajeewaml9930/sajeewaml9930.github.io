@@ -55,7 +55,6 @@
                 class="navbar-brand"
                 height="40"
               />
-              <!-- http://www.timco.lk/stc/image/stcHeader1.png -->
             </a>
             <div class="nav-toggle">
               <button class="btn btn-toggle toggle-sidebar">
@@ -75,115 +74,36 @@
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
               <li class="nav-item">
-                <a href="dashboard.html">
+                <a href="widgets.html">
                   <i class="fas fa-desktop"></i>
                   <p>Dashboard</p>
+                  <!-- <span class="badge badge-success">4</span> -->
                 </a>
               </li>
               <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#inventoryManagement">
-                  <i class="fas fa-th-list"></i>
-                  <p>Inventory Management</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="inventoryManagement">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="view-inventory.html">
-                        <span class="sub-item">View Inventory</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="add-remove-stock.html">
-                        <span class="sub-item">Add/Remove Stock</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="transfer-stock.html">
-                        <span class="sub-item">Transfer Stock</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="inventory-adjustments.html">
-                        <span class="sub-item">Inventory Adjustments</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#salesManagement">
-                  <i class="fas fa-shopping-cart"></i>
-                  <p>Sales Management</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="salesManagement">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="new-sale.html">
-                        <span class="sub-item">New Sale</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sales-history.html">
-                        <span class="sub-item">Sales History</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sales-analytics.html">
-                        <span class="sub-item">Sales Analytics</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#outletManagement">
-                  <i class="fas fa-store"></i>
-                  <p>Outlet Management</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="outletManagement">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="view-outlets.html">
-                        <span class="sub-item">View Outlets</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="add-edit-outlet.html">
-                        <span class="sub-item">Add/Edit Outlet</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="outlet-performance.html">
-                        <span class="sub-item">Outlet Performance</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a href="reports.html">
-                  <i class="fas fa-file-alt"></i>
-                  <p>Reports</p>
+                <a href="widgets.html">
+                  <i class="fas fa-desktop"></i>
+                  <p>Dashboard</p>
+                  <!-- <span class="badge badge-success">4</span> -->
                 </a>
               </li>
               <li class="nav-item">
-                <a href="user-management.html">
-                  <i class="fas fa-users"></i>
-                  <p>User Management</p>
+                <a href="widgets.html">
+                  <i class="fas fa-desktop"></i>
+                  <p>Dashboard</p>
+                  <!-- <span class="badge badge-success">4</span> -->
                 </a>
               </li>
               <li class="nav-item">
-                <a href="settings.html">
-                  <i class="fas fa-cogs"></i>
-                  <p>Settings</p>
+                <a href="widgets.html">
+                  <i class="fas fa-desktop"></i>
+                  <p>Dashboard</p>
+                  <!-- <span class="badge badge-success">4</span> -->
                 </a>
               </li>
             </ul>
           </div>
-        </div>        
+        </div>
       </div>
       <!-- End Sidebar -->
 
@@ -383,7 +303,7 @@
                               <i class="fa fa-user-plus"></i>
                             </div>
                             <div class="notif-content">
-                              <span class="block">Notification 1 </span>
+                              <span class="block"> New user registered </span>
                               <span class="time">5 minutes ago</span>
                             </div>
                           </a>
@@ -393,7 +313,7 @@
                             </div>
                             <div class="notif-content">
                               <span class="block">
-                                Notification 2
+                                Rahmad commented on Admin
                               </span>
                               <span class="time">12 minutes ago</span>
                             </div>
@@ -407,7 +327,7 @@
                             </div>
                             <div class="notif-content">
                               <span class="block">
-                                Notification 3
+                                Reza send messages to you
                               </span>
                               <span class="time">12 minutes ago</span>
                             </div>
@@ -417,7 +337,7 @@
                               <i class="fa fa-heart"></i>
                             </div>
                             <div class="notif-content">
-                              <span class="block"> Notification 4 </span>
+                              <span class="block"> Farrah liked Admin </span>
                               <span class="time">17 minutes ago</span>
                             </div>
                           </a>
@@ -526,7 +446,7 @@
                     </div>
                     <span class="profile-username">
                       <span class="op-7">Hi,</span>
-                      <span class="fw-bold">STC</span>
+                      <span class="fw-bold">Hizrian</span>
                     </span>
                   </a>
                   <ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -541,8 +461,8 @@
                             />
                           </div>
                           <div class="u-text">
-                            <h4>STC</h4>
-                            <p class="text-muted">hello@stc.com</p>
+                            <h4>Hizrian</h4>
+                            <p class="text-muted">hello@example.com</p>
                             <a
                               href="profile.html"
                               class="btn btn-xs btn-secondary btn-sm"
@@ -573,15 +493,12 @@
         <div class="container">
           <div class="page-inner">
             <!-- -->
-            <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
-          >
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
-              <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+            <div class="col col-stats ms-3 ms-sm-0">
+              <div class="numbers">
+                <p class="card-category">Visitors</p>
+                <h4 class="card-title">1,294</h4>
+              </div>
             </div>
-          </div>            
-          <!--  -->
           </div>
         </div>
 
@@ -603,7 +520,7 @@
               </ul>
             </nav>
             <div class="copyright">
-              2024, made </i> by
+              2024, made5 </i> by
               <a href="https://www.alenesoft.com/">AleneSoft PVT LTD</a>
             </div>
           </div>

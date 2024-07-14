@@ -571,19 +571,53 @@
         </div>
 
         <div class="container">
-          <div class="page-inner">
-            <!-- -->
-            <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
-          >
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
-              <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+            <div class="page-inner">
+              <!-- -->
+              <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+                <div>
+                  <h3 class="fw-bold mb-3">Add Edit Outlet</h3>
+                  <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+                </div>
+              </div>
+              <!-- Demo Add/Edit Outlet Form -->
+              <div class="demo-add-edit-outlet">
+                <form>
+                  <div class="form-group">
+                    <label for="outletName">Outlet Name</label>
+                    <input type="text" class="form-control" id="outletName" placeholder="Enter outlet name">
+                  </div>
+                  <div class="form-group">
+                    <label for="outletLocation">Outlet Location</label>
+                    <input type="text" class="form-control" id="outletLocation" placeholder="Enter outlet location">
+                  </div>
+                  <div class="form-group">
+                    <label for="outletManager">Outlet Manager</label>
+                    <input type="text" class="form-control" id="outletManager" placeholder="Enter manager name">
+                  </div>
+                  <div class="form-group">
+                    <label for="contactNumber">Contact Number</label>
+                    <input type="text" class="form-control" id="contactNumber" placeholder="Enter contact number">
+                  </div>
+                  <div class="form-group">
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="Enter email address">
+                  </div>
+                  <div class="form-group">
+                    <label for="timberTypes">Timber Types</label>
+                    <textarea class="form-control" id="timberTypes" rows="3" placeholder="Enter types of timber available"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="additionalNotes">Additional Notes</label>
+                    <textarea class="form-control" id="additionalNotes" rows="3" placeholder="Enter additional notes"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Save Outlet</button>
+                  <button type="reset" class="btn btn-secondary">Clear Form</button>
+                </form>
+              </div>
+              <!--  -->
             </div>
-          </div>            
-          <!--  -->
           </div>
-        </div>
+          
 
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">

@@ -571,20 +571,142 @@
         </div>
 
         <div class="container">
-          <div class="page-inner">
-            <!-- -->
-            <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
-          >
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
-              <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+            <div class="page-inner">
+              <!-- -->
+              <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+                <div>
+                  <h3 class="fw-bold mb-3">Sales Analytics</h3>
+                  <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+                </div>
+              </div>
+              <!-- Demo Sales Analytics Content -->
+              <div class="sales-analytics-demo">
+                <div class="row">
+                  <!-- Sales Summary -->
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h4 class="card-title">Sales Summary</h4>
+                      </div>
+                      <div class="card-body">
+                        <p>Total Sales: 1,500</p>
+                        <p>Total Revenue: Rs.250,000</p>
+                        <p>Average Sales per Day: 50</p>
+                        <p>Best Selling Product: Oak Timber</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Sales Trends -->
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h4 class="card-title">Sales Trends</h4>
+                      </div>
+                      <div class="card-body">
+                        <canvas id="salesTrendsChart"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <!-- Top Products -->
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h4 class="card-title">Top Products</h4>
+                      </div>
+                      <div class="card-body">
+                        <ul>
+                          <li>Oak Timber: 500 sales</li>
+                          <li>Pine Timber: 300 sales</li>
+                          <li>Mahogany Timber: 200 sales</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Sales by Region -->
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <h4 class="card-title">Sales by Region</h4>
+                      </div>
+                      <div class="card-body">
+                        <canvas id="salesByRegionChart"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
             </div>
-          </div>            
-          <!--  -->
           </div>
-        </div>
-
+          
+          <script>
+            // Sample data for charts
+            const salesTrendsData = {
+              labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+              datasets: [{
+                label: 'Sales',
+                data: [30, 50, 45, 60, 70, 80],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+              }]
+            };
+          
+            const salesByRegionData = {
+              labels: ['North', 'South', 'East', 'West'],
+              datasets: [{
+                label: 'Sales',
+                data: [100, 200, 150, 100],
+                backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+              }]
+            };
+          
+            // Chart configuration
+            window.onload = function() {
+              const ctxTrends = document.getElementById('salesTrendsChart').getContext('2d');
+              new Chart(ctxTrends, {
+                type: 'line',
+                data: salesTrendsData,
+                options: {
+                  responsive: true,
+                  scales: {
+                    y: {
+                      beginAtZero: true
+                    }
+                  }
+                }
+              });
+          
+              const ctxRegion = document.getElementById('salesByRegionChart').getContext('2d');
+              new Chart(ctxRegion, {
+                type: 'bar',
+                data: salesByRegionData,
+                options: {
+                  responsive: true,
+                  scales: {
+                    y: {
+                      beginAtZero: true
+                    }
+                  }
+                }
+              });
+            }
+          </script>
+          
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
             <nav class="pull-left">

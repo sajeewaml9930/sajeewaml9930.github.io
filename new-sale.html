@@ -571,19 +571,50 @@
         </div>
 
         <div class="container">
-          <div class="page-inner">
-            <!-- -->
-            <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
-          >
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
-              <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+            <div class="page-inner">
+              <!-- -->
+              <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+                <div>
+                  <h3 class="fw-bold mb-3">New Sale</h3>
+                  <h6 class="op-7 mb-2">It's Only Demo by AleneSoft.</h6>
+                </div>
+              </div>
+              
+              <!-- New Sale Demo Section -->
+              <div class="new-sale-demo">
+                <form>
+                  <div class="mb-3">
+                    <label for="saleDate" class="form-label">Sale Date</label>
+                    <input type="date" class="form-control" id="saleDate" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="customerName" class="form-label">Customer Name</label>
+                    <input type="text" class="form-control" id="customerName" placeholder="Enter customer name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="product" class="form-label">Product</label>
+                    <select class="form-control" id="product" required>
+                      <option value="">Select product</option>
+                      <option value="timber1">Timber Type 1</option>
+                      <option value="timber2">Timber Type 2</option>
+                      <option value="timber3">Timber Type 3</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="quantity" class="form-label">Quantity</label>
+                    <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input type="number" class="form-control" id="price" placeholder="Enter price" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Record Sale</button>
+                </form>
+              </div>
+              <!--  -->
             </div>
-          </div>            
-          <!--  -->
           </div>
-        </div>
+          
 
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
