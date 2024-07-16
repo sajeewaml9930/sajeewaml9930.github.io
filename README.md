@@ -1,61 +1,82 @@
-# Kaiadmin Lite - Free Bootstrap 5 Admin Dashboard
-![kaiadminlitethumb (1)](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/4793c6b9-7991-4502-8633-14d9ed0ea486)
+# SajeewaML9930.github.io
 
-This time, I want to introduce you Kaiadmin Lite – a free Bootstrap 5 Admin Dashboard built to easily manage and visualize business data.
+This repository contains the source code for the personal website of SajeewaML9930. The website includes various components, charts, forms, tables, maps, and more.
 
-With Kaiadmin Lite, you can complete development faster with no design skills required. Save 1000s of hours of designing and coding work, as we've already done that for you.
+## Table of Contents
 
-Don't worry about getting started – we've documented how to get started using this dashboard template and utilizing the available components and plugins, making it easy to leverage the full potential of Kaiadmin Bootstrap 5 Admin Dashboard.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Components](#components)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-**Product Detail** : https://themekita.com/kaiadmin-lite-bootstrap-5-dashboard.html
+## Installation
 
-**Live Preview** : https://themekita.com/demo-kaiadmin-lite-bootstrap-dashboard/livepreview/demo1/
+To run this project locally, follow these steps:
 
-# Get Kaiadmin PRO
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/sajeewaml9930.github.io.git
+    ```
 
-![bg_themekitacom](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/195bfcb3-f587-4920-bfba-a583244116ad)
-[Product Detail](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/) |  [Buy This](https://themekita.lemonsqueezy.com/buy/526b603e-8eb3-4dcb-a7a3-842375952df5)
+2. Navigate to the project directory:
+    ```sh
+    cd sajeewaml9930.github.io
+    ```
 
-***
-### [Kaiadmin - Classic Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo1/)
-![Kaiadmin - Classic Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/106e027a-4ffe-4856-b729-0e6939c0473d)
+3. Open `index.html` in your preferred web browser.
 
-***
-### [Kaiadmin - White Classic Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo2/)
-![Kaiadmin - White Classic Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/ab70a0f7-116d-46ad-9037-a4081b0db763)
+## Usage
 
-***
-### [Kaiadmin - Dark Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo3/)
-![Kaiadmin - Dark Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/1a645dc4-d150-45d7-9883-1955b0666d18)
+This project is a static website. You can view it by opening the `index.html` file in any web browser. For development and customization, you can use any code editor.
 
-***
-### [Kaiadmin - Creative Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo4/)
-![Kaiadmin - Creative Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/fccc0204-3cb7-45dd-b0a5-532c57af3c12)
+## Project Structure
 
-***
-### [Kaiadmin - Trendy Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo5/)
-![Kaiadmin - Trendy Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/bd9d4ce8-08a3-48bd-975e-3d77e5c51388)
+The project contains the following main directories:
 
-***
-### [Kaiadmin - Trendy 2 Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo6/)
-![Kaiadmin - Trendy 2 Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/3cdd531f-16e0-4c4e-bfbd-89f80d3a25fe)
+- `assets/`: Contains CSS, JS, images, and other assets.
+  - `css/`: Stylesheets.
+  - `js/`: JavaScript files.
+  - `img/`: Images and icons.
+- `charts/`: HTML files related to charts.
+- `components/`: HTML files for various UI components like avatars, buttons, notifications, etc.
+- `forms/`: HTML files related to forms.
+- `maps/`: HTML files related to maps.
+- `tables/`: HTML files related to tables.
 
-***
-### [Kaiadmin - Horizontal Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo7/)
-![Kaiadmin - Horizontal Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/2cac93cc-2542-43d9-9072-8625bdd2f8ad)
+## Components
 
-***
-### [Kaiadmin - Enterprise Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo8/)
-![Kaiadmin - Enterprise Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/ce2aa3f8-1f62-4ca1-87cd-111b74e50940)
+The website includes several UI components and plugins:
 
-***
-### [Kaiadmin - Futuristic Dashboard](https://themekita.com/demo-kaiadmin-pro-bootstrap-dashboard/livepreview/examples/demo9/)
-![Kaiadmin - Futuristic Dashboard](https://github.com/Hizrian/kaiadmin-lite/assets/10692084/83f79f3d-d248-4d01-ac15-9c98bee3ca9f)
+- Avatars
+- Buttons
+- Font Awesome Icons
+- Grid System
+- Notifications
+- Panels
+- Simple Line Icons
+- SweetAlert
+- Typography
 
+## Screenshots
 
+Here are some screenshots of the website:
 
+### Homepage
+![Homepage](screenshots/demo1.png)
 
+### Profile
+![Profile](screenshots/profile.jpg)
 
+### Example Component
+![Example Component](screenshots/example1.jpeg)
 
+## Contributing
 
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
